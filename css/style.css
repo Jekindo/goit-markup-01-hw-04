@@ -43,6 +43,8 @@ ul {
   padding: 0;
 }
 
+
+
 /*? УТИЛИТЫ */
 .list {
   list-style: none;
@@ -79,13 +81,23 @@ ul {
 	height: 20px;
 }
 
+
+
 /*? HEADER */
 .header {
+  background-color: var(--primary-white-color);
   border-top: 1px solid var(--light-gray-color);
   border-bottom: 1px solid var(--light-gray-color);
+
+  width: 100%;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header-inner {
+  min-height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -193,6 +205,9 @@ ul {
 	height: 16px;
 } */
 
+
+
+
 /*? HERO */
 .hero {
   background-color: var(--dark-bc-color);
@@ -247,6 +262,9 @@ ul {
   line-height: 1.16;
   text-align: center;
 }
+
+
+
 
 /*? Особенности */
 .peculiarities-list {
@@ -341,6 +359,9 @@ ul {
 .activities-list img {
   display: block;
 }
+
+
+
 
 /*? Наша команда */
 .section.team {
